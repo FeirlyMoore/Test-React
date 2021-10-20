@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
-import Hello from './App';
+import App from './App';
+// import Hello from './App';
 import reportWebVitals from './reportWebVitals';
 
 // ReactDOM.render(
@@ -37,8 +37,15 @@ import reportWebVitals from './reportWebVitals';
 
 // const elem = <Hello name="Alex"/>;
 
+// ReactDOM.render(
+//   <Hello />,
+//   document.getElementById('root')
+//   );
+
+
+
 ReactDOM.render(
-  <Hello />,
+  <App />,
   document.getElementById('root')
   );
 
